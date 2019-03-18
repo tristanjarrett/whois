@@ -3,12 +3,8 @@
     <?php require './inc/whois.php'; ?>
 
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
-      <div class="input-group">
-        <input type="text" id="domain" name="domain" class="form-control form-control-lg" placeholder="Enter a domain name to lookup" value="<?php $domain; ?>">
-        <div class="input-group-append">
-          <button class="btn btn-primary btn-lg" type="submit">Search</button>
-        </div>
-      </div>
+      <input type="text" id="domain" name="domain" placeholder="Enter a domain name to lookup" value="<?php $domain; ?>">
+      <button type="submit">Search</button>
     </form>
 
     <?php
