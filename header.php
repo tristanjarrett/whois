@@ -1,4 +1,4 @@
-<?php $siteName = "BrandAI"; ?>
+<?php $siteName = "Site Name"; ?>
 <!DOCTYPE html>
 <html>
   <head>

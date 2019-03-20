@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-    <?php require './inc/whois.php'; ?>
+    <?php require './inc/whois/master.php'; ?>
 
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
       <input type="text" id="domain" name="domain" placeholder="Enter a domain name to lookup" value="<?php $domain; ?>">
